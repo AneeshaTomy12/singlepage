@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Home</title>
+</head>
+<style>
+	body{
+		background-image: url("img\\bgimg.jpg");
+		background-repeat: no-repeat;
+		background-size: cover;
+		margin: 0px;
+		/*background-size: 100%;*/
+	}
+	.flex-container{
+		display: flex;
+		flex-direction: row;
+		background-color: black;
+		height: 50px;
+		/*word-spacing: 2px;*/
+		/*padding-left: 500px;*/
+		flex-wrap: wrap;
+		padding-bottom:10px;
+		margin-bottom: 30px;
+
+	}
+		a{
+		color:white;
+		text-shadow:1px 1px  white;
+		font-size: 22px;
+		text-decoration: none;
+		padding-top: 8px;
+		
+		
+
+	}
+		footer{
+		background-color: black;
+		color: white;
+		padding: 10px;
+		margin-top: 50px;
+		
+		text-align: center;
+	}
+	
+	
+	.container{
+		display: flex;
+		align-items: center;
+		justify-content: space-evenly;
+		flex-wrap: wrap;
+		margin-top: 100px;
+
+
+	}
+	.one,.two,.three
+	{
+		background-color: black;
+		opacity: 70%;
+		color: white;
+		border: 1px;
+		width: 300px;
+		height: 300px;
+		border-radius: 10px;
+		text-align: center;
+		padding-left: 10px;
+		padding: auto;
+		padding-right: 10px;
+		margin-bottom: 30px;
+
+	}
+	.flex-container li{
+		display: inline-block;
+		padding-left: 200px;
+
+
+	}
+	.container p{
+		font-size: 18px;
+	}
+	
+	.hi{
+
+		padding-top: 20px;
+		/*padding-right: 30px;*/
+		text-align: right;
+		background-color: black;
+		padding-bottom: 20px;
+		word-spacing: 25px;
+		padding-right: 60px;
+		font-family: cursive;
+	}
+	@media screen and (max-width: 992px) {
+
+		.one,.two,.three{
+			
+				width: 60%;
+				margin-bottom: 20px;
+		}
+	}
+@media screen and (max-width: 992px){
+
+	.hi{
+			flex-direction: left;
+			margin-left: 0px;
+
+		}
+
+}
+
+.hd{
+	background-color: darkred;
+	padding-left: 5px;
+	padding-right: 5px;
+	border-radius: 3px;
+	padding-bottom: 5px;
+
+}
+.about{
+	border-radius: 3px;
+	border: none;
+	background-color: darkred;
+	font-weight: bold;
+	font-size: 20px;
+	text-shadow:1px 1px  white;
+	color: #ffffff;
+	padding-left: 5px;
+	padding-right: 5px;
+	
+	font-family: cursive;
+
+}
+select:hover{
+	background-color: darkred;
+}
+</style>
+<body>
+<div class="hi">
+	<header>
+		<a class="hd" href="#">Home</a>
+		<a href="#">Gallery</a>
+		<select class="about">
+			<option>AboutUs</option>
+			<option>View</option>
+			<option>Mission</option>
+		</select>
+		<a href="#">Contact </a>
+		
+		
+		
+	</header>
+	</div>
+<div class="container">
+	<div class="one">
+		<h1>Heading</h1>
+		<p>Java is a high-level, class-based, object-oriented programming language that is designed to have as few implementation dependencies as possible. It is a general-purpose programming language intended to let programmers write once, run anywhere (WORA), meaning that compiled Java code can run on all platforms that support Java without the need to recompile</p>
+	</div>
+	<div class="two">
+		<h1>Heading</h1>
+		<p>Java is a high-level, class-based, object-oriented programming language that is designed to have as few implementation dependencies as possible. It is a general-purpose programming language intended to let programmers write once, run anywhere (WORA), meaning that compiled Java code can run on all platforms that support Java without the need to recompile</p>
+	</div>
+	<div class="three">
+		<h1>Heading</h1>
+		<p>Java is a high-level, class-based, object-oriented programming language that is designed to have as few implementation dependencies as possible. It is a general-purpose programming language intended to let programmers write once, run anywhere (WORA), meaning that compiled Java code can run on all platforms that support Java without the need to recompile</p>
+	</div>
+	
+</div>
+<footer>
+	<p>
+		Copyright © 2022 Aneessha Tomy
+	</p>
+</footer>
+</body>
+</html>
